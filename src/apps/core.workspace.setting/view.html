@@ -1,0 +1,15 @@
+.p-4.pr-6.pl-6
+    .page-header.mb-0
+        .row.align-items-center
+            .col-auto
+                h2.page-title Workspace Configuration
+            .col-auto.ml-auto.d-print-none
+                button.btn.btn-light.ml-2(ng-click="event.update()") Save
+
+    .info-form.row
+        .col-md-12
+            .text-muted Workspace Keymaps
+    
+    .info-form.row.first-child
+        .col-md-12.pt-3(style="height: 70vh; overflow: hidden;")
+            div(ng-model="data.keymap" ui-monaco-opts="monaco_properties" ui-monaco)

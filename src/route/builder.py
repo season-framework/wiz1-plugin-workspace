@@ -1,0 +1,8 @@
+framework.nav("workspace", "Workspace", "/wiz/admin/workspace", r'^/wiz/admin/workspace')
+framework.subnav("workspace", "route", "Route", "/wiz/admin/workspace/routes", r'^/wiz/admin/workspace/routes')
+framework.subnav("workspace", "app", "App", "/wiz/admin/workspace/apps", r'^/wiz/admin/workspace/apps')
+framework.subnav("workspace", "controller", "Controller", "/wiz/admin/workspace/ctrls", r'^/wiz/admin/workspace/ctrls')
+framework.subnav("workspace", "model", "Model", "/wiz/admin/workspace/models", r'^/wiz/admin/workspace/models')
+framework.subnav("workspace", "theme", "Theme", "/wiz/admin/workspace/themes", r'^/wiz/admin/workspace/themes')
+framework.subnav("workspace", "resource", "Resource", "/wiz/admin/workspace/res", r'^/wiz/admin/workspace/res')
+framework.subnav("workspace", "config", "Config", "/wiz/admin/workspace/config", r'^/wiz/admin/workspace/config')
