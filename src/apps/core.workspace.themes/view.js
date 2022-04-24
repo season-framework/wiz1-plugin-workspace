@@ -74,8 +74,8 @@ TREE_DATA.push({
 const VIEWER_IMAGE_URL = (item) => {
     let url = item.url;
     url = url.split("/");
-    let themename = url[2];
-    url = url.splice(4);
+    let themename = url[4];
+    url = url.splice(6);
     url = url.join("/");
     url = "/resources/themes/" + themename + "/" + url;
     return url;
